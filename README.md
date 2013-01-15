@@ -5,3 +5,15 @@ Wordpress Carbon is a clean and minimal HTML5 and CSS3 theme powered by Zurb Fou
 It's free for you to mess with (for now).
 
 [brandr]: http://brandr.co "The Brandr Co"
+
+## Features
+
+1. Sandbox Data
+2. Responsive Design
+3. Admin Panel
+
+## Sandbox Data
+
+## Responsive Design
+
+## Admin Panel
