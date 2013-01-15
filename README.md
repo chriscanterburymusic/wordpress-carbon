@@ -1,6 +1,5 @@
-# Wordpress Carbon
+# The Brandr Co
 
-A clean and minimal HTML5 and CSS3 theme powered by Zurb 
-Foundation.
+Wordpress Carbon is a clean and minimal HTML5 and CSS3 theme powered by Zurb Foundation. This theme is skeleton for building fully featured themes for The Brandr Co clients.
 
-## The Brandr Co
+It's free for you to mess with (for now).
