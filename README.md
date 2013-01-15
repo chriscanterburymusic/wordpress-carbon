@@ -7,7 +7,7 @@ It's free for you to mess with (for now).
 ## Features
 
 1. [Sandbox Data](#sandbox-data)
-2. [Responsive Design](#repsonsive-design)
+2. [Responsive Design](#responsive-design)
 3. [Admin Panel](#admin-panel)
 
 ## Sandbox Data
