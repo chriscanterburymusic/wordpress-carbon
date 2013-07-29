@@ -1,12 +1,16 @@
 <?php get_header(); ?>
 
 	<section class="row">
-		<article class="fifteen columns">
-			<h1>Carbon</h1>
-			<p>A clean and minimal HTML5 and CSS3 theme powered by Zurb Foundation. 
-				This theme uses Zurb Foundation. It has been customized to 1180px width
-				and a 15 column layout with 60px column margins.</p>
-		</article>
+
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<article class="large-4 columns">
+				<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+				<?php the_excerpt(); ?>
+			</article>
+		<?php endwhile; else: ?>
+			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+		<?php endif; ?>
+
 	</section>
 				
 <?php get_footer(); ?>
