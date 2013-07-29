@@ -29,6 +29,3 @@
 <body id="<?php echo content_slug() ?>" <?php body_class(); ?>>
 
 <?php get_navbar(); ?>
-
-<div class="row">
-	<section id="content" class="large-12 columns" role="main">

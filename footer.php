@@ -1,9 +1,4 @@
 
-		<?php get_sidebar(); ?>
-		
-	</section><!--/content-->
-</div><!--.row-->
-
 <div class="row">
 	<footer class="large-12 columns">
 		<p>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo('name'); ?> 

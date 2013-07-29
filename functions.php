@@ -131,9 +131,16 @@ function get_credits($scheme = 'light') {
 }
 
 /**
- *	Custom navbar include
+ *	Custom navbar
  */	
 function get_navbar($slug = 'navbar', $name = null ) {
+	get_template_part( $slug, $name );
+}
+
+/**
+ *	Custom colophon
+ */
+function get_colophon($slug = 'colophon', $name = null ) {
 	get_template_part( $slug, $name );
 }
 
