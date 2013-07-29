@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <!-- 
-  _                         _               
- | |                       | |              
- | |__  _ __ __ _ _ __   __| |_ __ ___ ___  
- | '_ \| '__/ _` | '_ \ / _` | '__/ __/ _ \ 
- | |_) | | | (_| | | | | (_| | | | (_| (_) |
- |_.__/|_|  \__,_|_| |_|\__,_|_|  \___\___/ 
-                                            
-  This website was created by The Brandr Co. If you'd like to do business
-  with us, send an email to connect@brandr.co. 
+ _    _     
+| |  | |    
+| | _| |__  
+| |/ / '_ \ 
+|   <| | | |	Created by Kaleb Heitzman
+|_|\_\_| |_|	http://kheitzman.com/wordpress
 -->
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
@@ -24,17 +21,14 @@
 		
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 	
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
 	<link rel="pingback" href="<?php bloginfo('pingback_url')?>" />
 
 	<?php wp_head(); ?>
 
 </head>
-<body id="<?php echo content_slug() ?>" <?php body_class('row'); ?>>
+<body id="<?php echo content_slug() ?>" <?php body_class(); ?>>
 
-<?php get_sidebar(); ?>
+<?php get_navbar(); ?>
 
-<section id="content" class="nine columns" role="main">
+<div class="row">
+	<section id="content" class="large-12 columns" role="main">

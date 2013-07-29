@@ -1,37 +1,28 @@
 /*
-Theme Name: Wordpress Carbon
-Theme URI: http://brandr.co/carbon
+Theme Name: Carbon
+Theme URI: http://kheitzman.com/carbon
 Description: A clean and minimal HTML5 and CSS3 theme powered by Zurb 
 Foundation. This theme uses Foundation that has been customized to 1180px with a 
 15 column layout and 60px column margin.
-Author: Brandr Co
-Author URI: http://brandr.co
+Author: Kaleb Heitzman
+Author URI: http://kheitzman.com
 Version: 1.0
 
-Tags: 
+Tags: minimal, zurb, responsive
 
-License:
+License: 
 License URI: 
-
- _                         _              
-| |                       | |              
-| |__  _ __ __ _ _ __   __| |_ __ ___ ___  
-| '_ \| '__/ _` | '_ \ / _` | '__/ __/ _ \ 
-| |_) | | | (_| | | | | (_| | | | (_| (_) |
-|_.__/|_|  \__,_|_| |_|\__,_|_|  \___\___/ 
+ _    _     
+| |  | |    
+| | _| |__  
+| |/ / '_ \ 
+|   <| | | |	Developed by Kaleb Heitzman
+|_|\_\_| |_|	http://kheitzman.com/wordpress
                            
-This is a wordpress theme framework by The Brandr Co.
-http://brandr.co/carbon                  
 */
 
 /* 
  * Imports
  */
-@import url('styles/foundation.css');
-@import url('styles/app.css');
-
-/*
- *	Hide the Wordpress Admin Bar
- */
-#wpadminbar { display: none }
-body.admin-bar { margin-top: -28px; }
+@import url('styles/foundation.min.css');
+/*@import url('styles/app.css');*/

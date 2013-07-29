@@ -1,12 +1,15 @@
-	
-	<footer>
+
+		<?php get_sidebar(); ?>
+		
+	</section><!--/content-->
+</div><!--.row-->
+
+<div class="row">
+	<footer class="large-12 columns">
 		<p>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo('name'); ?> 
-			&bull; Created by <a href="http://brandr.co">The Brandr Co</a></p>
+			&bull; <?php echo get_credits(); ?></p>
 	</footer>
-
-</section><!--/content-->
-
-<section class="one columns"></section>
+</div><!--.row-->
 
 <!-- Prompt IE 7 users to install Chrome Frame. Remove this if you want to support IE 7.
      chromium.org/developers/how-tos/chrome-frame-getting-started -->
@@ -14,8 +17,12 @@
 	<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 <![endif]-->
-	
-<?php get_footer(); ?>
+
+<?php wp_footer(); ?>
+
+<script>
+  $(document).foundation();
+</script>
 
 </body>
 </html>
